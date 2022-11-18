@@ -1,5 +1,12 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const licenseArr = [
+  "Apache license 2.0",
+  "MIT License",
+  "Boost Software license 1.0",
+  "Eclipse Public license",
+  "Mozilla Public License 2.0",
+];
 
 const markDown = (response) => {
   const {
@@ -15,10 +22,20 @@ const markDown = (response) => {
     media,
   } = response;
 
+  const iconIndex = licenseArr.indexOf(license);
+
+  const licenseIcons = [
+    "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)",
+    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]",
+    "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+    "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]",
+  ];
+
   var info = `
 # ${name}
 ### license icon
-
+${licenseIcons[iconIndex]}
 
 ## Description
 ${description}
@@ -38,6 +55,10 @@ ${use}
 ${license}
 ## Application URL
 ${deployedApp}
+
+## Questions
+if you have any questions got to me github profile to contact me
+${"https://github.com/" + userName}
 `;
   return info;
 };
@@ -92,13 +113,7 @@ inquirer
     {
       type: "list",
       message: "Whats your license?",
-      choices: [
-        "Apache license 2.0",
-        "MIT License",
-        "Boost Software license 1.0",
-        "Eclipse Public license",
-        "Mozilla Public License 2.0",
-      ],
+      choices: licenseArr,
       name: "license",
     },
   ])

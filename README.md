@@ -1,22 +1,27 @@
 
-# README generator
+# s
 ### license icon
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This README Generator creates a readme file for your Github repo. when run it will prompt user for info about the repo and compile it all together into a read me file. This file was made by the generator!
 ## Description
+s
 ## Installation
-download scipt.js install node then inquirer package
+s
 ## Media
-NA
+s
 ## Credits
-Bdogy
-https://github.com/Bdogy
-
+s
+https://github.com/s
+s
 ## Testing
-NA
+s
 ## uses
-Gemerates a README file for your repos
+s
 ## License
 MIT License
 ## Application URL
-NA
+s
+
+## Questions
+if you have any questions got to me github profile to contact me
+https://github.com/s
