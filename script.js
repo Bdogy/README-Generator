@@ -5,7 +5,7 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "Whats your user name?",
+      message: "Whats your username?",
       name: "userName",
     },
     {
@@ -30,13 +30,24 @@ inquirer
     },
     {
       type: "input",
+      message: "Any testing?",
+      name: "use",
+    },
+    {
+      type: "input",
       message: "Who also contributed?",
       name: "contribute",
     },
     {
       type: "list",
       message: "Whats your license?",
-      choices: ["1", "2", "3"],
+      choices: [
+        "Apache license 2.0",
+        "MIT License",
+        "Boost Software license 1.0",
+        "Eclipse Public license",
+        "Mozilla Public License 2.0",
+      ],
       name: "license",
     },
   ])
