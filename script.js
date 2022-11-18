@@ -104,4 +104,7 @@ inquirer
   .then((response) => {
     console.log(response);
     console.log(markDown(response));
+    fs.writeFile("README.md", markDown(response), (error) => {
+      error ? console.log(error) : console.log("appended to README");
+    });
   });
