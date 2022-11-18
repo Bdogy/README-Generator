@@ -2,22 +2,43 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 const markDown = (response) => {
+  const {
+    name,
+    userName,
+    description,
+    use,
+    install,
+    contribute,
+    license,
+    test,
+    deployedApp,
+    media,
+  } = response;
+
   var info = `
-    # ${response.name}
+    # ${name}
     ### license icon
-    
+
     ## Description
-    
+    ${description}
     ## Installation
-    
+    ${install}
     ## Media
-    
+    ${media}
     ## Credits
-    
+    ${userName}
+    ${"https://github.com/" + userName}
+    ${contribute}
+    ## Testing
+    ${test}
+    ## uses
+    ${use}
     ## License
-    
+    ${license}
     ## Application URL
+    ${deployedApp}
     `;
+  return info;
 };
 
 inquirer
@@ -50,7 +71,7 @@ inquirer
     {
       type: "input",
       message: "Any testing?",
-      name: "use",
+      name: "test",
     },
     {
       type: "input",
@@ -82,4 +103,5 @@ inquirer
   ])
   .then((response) => {
     console.log(response);
+    console.log(markDown(response));
   });
