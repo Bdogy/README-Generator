@@ -49,7 +49,7 @@ ${"https://github.com/" + userName}
 ${contribute}
 ## Testing
 ${test}
-## uses
+## Uses
 ${use}
 ## License
 ${license}

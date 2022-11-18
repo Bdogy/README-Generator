@@ -1,27 +1,27 @@
 
-# s
+# README generator
 ### license icon
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-s
+This is generate a README file for the users Github repo based on user inputs
 ## Installation
-s
+Download script.js install node then install the inquirer package
 ## Media
-s
+NA
 ## Credits
-s
-https://github.com/s
-s
+Bdogy
+https://github.com/Bdogy
+
 ## Testing
-s
+NA
 ## uses
-s
+Use to generate a README file for the users Github portfolio
 ## License
 MIT License
 ## Application URL
-s
+NA
 
 ## Questions
 if you have any questions got to me github profile to contact me
-https://github.com/s
+https://github.com/Bdogy
