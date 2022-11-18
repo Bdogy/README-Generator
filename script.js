@@ -1,6 +1,25 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+const markDown = (response) => {
+  var info = `
+    # ${response.name}
+    ### license icon
+    
+    ## Description
+    
+    ## Installation
+    
+    ## Media
+    
+    ## Credits
+    
+    ## License
+    
+    ## Application URL
+    `;
+};
+
 inquirer
   .prompt([
     {
@@ -37,6 +56,16 @@ inquirer
       type: "input",
       message: "Who also contributed?",
       name: "contribute",
+    },
+    {
+      type: "input",
+      message: "any media? add the link!",
+      name: "media",
+    },
+    {
+      type: "input",
+      message: "deployed app link:",
+      name: "deployedApp",
     },
     {
       type: "list",
