@@ -16,28 +16,29 @@ const markDown = (response) => {
   } = response;
 
   var info = `
-    # ${name}
-    ### license icon
+# ${name}
+### license icon
 
-    ## Description
-    ${description}
-    ## Installation
-    ${install}
-    ## Media
-    ${media}
-    ## Credits
-    ${userName}
-    ${"https://github.com/" + userName}
-    ${contribute}
-    ## Testing
-    ${test}
-    ## uses
-    ${use}
-    ## License
-    ${license}
-    ## Application URL
-    ${deployedApp}
-    `;
+
+## Description
+${description}
+## Installation
+${install}
+## Media
+${media}
+## Credits
+${userName}
+${"https://github.com/" + userName}
+${contribute}
+## Testing
+${test}
+## uses
+${use}
+## License
+${license}
+## Application URL
+${deployedApp}
+`;
   return info;
 };
 
