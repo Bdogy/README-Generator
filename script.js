@@ -34,8 +34,32 @@ const markDown = (response) => {
 
   var info = `
 # ${name}
-### license icon
 ${licenseIcons[iconIndex]}
+
+## Table of contents
+
+### [Description](#description)
+
+### [Uses](#uses)
+
+### [Installation](#installation)
+
+### [Credits](#credits)
+
+### [Media](#media)
+
+### [Testing](#testing)
+
+### [License](#license)
+
+### [URL](#application)
+
+### [Questions](#questions)
+
+
+### [Description](Description)
+
+
 
 ## Description
 ${description}
