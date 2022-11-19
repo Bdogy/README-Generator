@@ -28,17 +28,16 @@
 
 
 ## Description
-This is generate a README file for the users Github repo based on user inputs
+This is generate a README file for the users Github repo based on user inputs, this file was made using the program!
 ## Installation
 Download script.js install node then install the inquirer package
 ## Media
-NA
+https://www.youtube.com/watch?v=IyxHygZMcvg&ab_channel=JacksonGrimm
 ## Credits
 Bdogy
 https://github.com/Bdogy
-NA
 ## Testing
-
+NA
 ## Uses
 Use to generate a README file for the users Github portfolio
 ## License
