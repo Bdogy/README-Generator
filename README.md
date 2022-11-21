@@ -28,8 +28,8 @@
 
 
 ## Description
-This is generate a README file for the users Github repo based on user inputs, this file was made using the program!
-## Installation
+This is generate a README file for the users Github repo based on user inputs, this file was made using the program! (Including this file!!!)
+## Installation 
 Download script.js install node then install the inquirer package
 ## Media
 https://www.youtube.com/watch?v=IyxHygZMcvg&ab_channel=JacksonGrimm
