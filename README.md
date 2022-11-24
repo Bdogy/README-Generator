@@ -1,5 +1,5 @@
 
-# README generator
+# Team Profile Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
@@ -28,24 +28,24 @@
 
 
 ## Description
-This is generate a README file for the users Github repo based on user inputs
+Takes user input of diffrent employee information and then displays that infomation as cards to a webpage
 ## Installation
-Download script.js install node then install the inquirer package
+clone the repo and do a npm i to install the packages
 ## Media
-NA
+
 ## Credits
-Bdogy
-https://github.com/Bdogy
-NA
+JacksonGrimm
+https://github.com/JacksonGrimm
+
 ## Testing
 
 ## Uses
-Use to generate a README file for the users Github portfolio
+Creates cards from user input
 ## License
 MIT License
 ## Application URL
-NA
+
 
 ## Questions
 if you have any questions got to me github profile to contact me
-https://github.com/Bdogy
+https://github.com/JacksonGrimm
